@@ -3,13 +3,13 @@ package lexer
 import (
 	"testing"
 
-	"token"
+	"jarren.dirk/monkeylang/token"
 )
 
 func TestNextToken(t *testing.T ) {
 	input := `=+(){},;`
 
-	test := []struct {
+	tests := []struct {
 		expectedType token.TokenType
 		expectedLiteral string
 	}{
