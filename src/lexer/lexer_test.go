@@ -40,7 +40,7 @@ func TestNextToken(t *testing.T ) {
 		{token.IDENT, "y"},
 		{token.RBRACE, "{"},
 		{token.IDENT, "x"},
-		{token.ADD, "+"},
+		{token.PLUS, "+"},
 		{token.IDENT, "y"},
 		{token.SEMICOLON, ";"},
 		{token.RBRACE, "}"},
